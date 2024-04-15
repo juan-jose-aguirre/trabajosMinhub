@@ -37,3 +37,49 @@ header{
         }
     }
 }
+main{
+    span{
+        color: orangered;
+    }
+    h2{
+        text-align: center;
+        padding: 5vh 0;
+    }
+    .coffee{
+        width: 60vw;
+        padding-bottom: 3vh;
+        border-bottom: 2px solid gray;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        div{
+            padding: 2vw;
+            max-width: 20vw;
+        }
+    }
+    .coffees{
+        div{
+            display: flex;
+            justify-content: center;
+            img{
+                margin-right: 3vw;
+            }
+            table{
+                text-align: center;
+                border-collapse: collapse;
+                td{
+                    padding: 1vw;
+                }
+                th{
+                    padding: 1vw;
+                    background-color: black;
+                    color: white;
+                }
+                .grey{
+                    background-color: grey;
+                }
+            }
+        }
+    }
+
+}
